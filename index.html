@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form Project</title>
 </head>
-<body>
-    
+
+<body class="major_content">
+    <main class="container">       
+        <section class="half_left">
+            <h1 class="title1">Informações de Contato</h1>
+
+            <div class="contact">
+                <div class="left_info">
+                    <img class="icon" src="./img/address.png" alt="Ícone de Endereço">
+                </div>
+                <div class="right_info">
+                    <h2 class="title_info">ENDEREÇO</h2>
+                    <p class="info">Rua Exemplo de Exemplificar, N° X, Exemple City - EX</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="left_info">
+                    <img class="icon" src="./img/fone.png" alt="Ícone de Fone">
+                </div>
+                <div class="right_info">
+                    <h2 class="title_info">FONE</h2>
+                    <p class="info">+12 (34) 12345-6789</p>
+                </div>
+            </div> 
+            
+            <div class="contact">
+                <div class="left_info">
+                    <img class="icon" src="./img/email.png" alt="Ícone de Email">
+                </div>
+                <div class="right_info">
+                    <h2 class="title_info">EMAIL</h2>
+                    <p class="info">exemplificacao_123@exemplo.com</p>
+                </div>
+            </div> 
+            
+            <div class="contact">
+                <div class="left_info">
+                    <img class="icon" src="./img/website.png" alt="Ícone do Website">
+                </div>
+                <div class="right_info">
+                    <h2 class="title_info">WEBSITE</h2>
+                    <a class="website" href="">exemplo.com.br/exemplos</a>
+                </div>
+            </div>
+
+
+        </section>
+                    
+        <section class="half_right">
+            <h1 class="title2">Entre em contato</h1>            
+            <form class="form">
+                <input required="true" class="input_form" type="text" placeholder="Nome Completo">
+                <input required="true" class="input_form" type="email" placeholder="Email">
+                <input required="true" class="input_form" type="text" placeholder="Assunto">
+                <textarea required="true" class="input_form" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button required="true" class="submit_form" type="submit">Enviar</button> 
+            </form>
+        </section>
+    </main>
 </body>
 </html>

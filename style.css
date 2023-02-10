@@ -100,6 +100,7 @@
     padding: 5px;
     background-color: #f2f2f2;
     border: solid 1px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
 }
 .major_content .container .half_right .form .input_form::placeholder    {
     font-size: 15px;
